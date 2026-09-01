@@ -1,0 +1,70 @@
+﻿score_band,rank,deck_type,teams,classified_teams_in_band,usage_rate,usage_percent,representative_card_id,representative_card_name
+1100+,1,Alakazam,4,16,0.25,25.0,743,Alakazam
+1100+,2,Festival Lead,2,16,0.125,12.5,93,Dipplin
+1100+,3,Marnie Grimmsnarl,2,16,0.125,12.5,648,Marnie's Grimmsnarl ex
+1100+,4,Mega Froslass,2,16,0.125,12.5,861,Mega Froslass ex
+1100+,5,Mega Kangaskhan,2,16,0.125,12.5,756,Mega Kangaskhan ex
+1100+,6,Crustle Wall,1,16,0.0625,6.25,345,Crustle
+1100+,7,Cynthia Garchomp,1,16,0.0625,6.25,381,Cynthia's Garchomp ex
+1100+,8,Dragapult,1,16,0.0625,6.25,121,Dragapult ex
+1100+,9,Mega Lucario,1,16,0.0625,6.25,678,Mega Lucario ex
+1000-1099,1,Marnie Grimmsnarl,24,81,0.2962962962962963,29.63,648,Marnie's Grimmsnarl ex
+1000-1099,2,Alakazam,13,81,0.16049382716049382,16.05,743,Alakazam
+1000-1099,3,Mega Froslass,11,81,0.13580246913580246,13.58,861,Mega Froslass ex
+1000-1099,4,Teal Mask Ogerpon,9,81,0.1111111111111111,11.11,96,Teal Mask Ogerpon ex
+1000-1099,5,Dragapult,7,81,0.08641975308641975,8.64,121,Dragapult ex
+1000-1099,6,Crustle Wall,5,81,0.06172839506172839,6.17,345,Crustle
+1000-1099,7,Mega Lopunny,5,81,0.06172839506172839,6.17,849,Mega Lopunny ex
+1000-1099,8,Festival Lead,3,81,0.037037037037037035,3.7,93,Dipplin
+1000-1099,9,Mega Kangaskhan,2,81,0.024691358024691357,2.47,756,Mega Kangaskhan ex
+1000-1099,10,Mega Lucario,1,81,0.012345679012345678,1.23,678,Mega Lucario ex
+900-999,1,Marnie Grimmsnarl,120,262,0.4580152671755725,45.8,648,Marnie's Grimmsnarl ex
+900-999,2,Alakazam,50,262,0.19083969465648856,19.08,743,Alakazam
+900-999,3,Crustle Wall,29,262,0.11068702290076336,11.07,345,Crustle
+900-999,4,Teal Mask Ogerpon,12,262,0.04580152671755725,4.58,96,Teal Mask Ogerpon ex
+900-999,5,Mega Froslass,9,262,0.03435114503816794,3.44,861,Mega Froslass ex
+900-999,6,Mega Lucario,9,262,0.03435114503816794,3.44,678,Mega Lucario ex
+900-999,7,Cynthia Garchomp,8,262,0.030534351145038167,3.05,381,Cynthia's Garchomp ex
+900-999,8,Dragapult,6,262,0.022900763358778626,2.29,121,Dragapult ex
+900-999,9,Festival Lead,6,262,0.022900763358778626,2.29,93,Dipplin
+900-999,10,Mega Lopunny,3,262,0.011450381679389313,1.15,849,Mega Lopunny ex
+800-899,1,Marnie Grimmsnarl,214,500,0.428,42.8,648,Marnie's Grimmsnarl ex
+800-899,2,Alakazam,100,500,0.2,20.0,743,Alakazam
+800-899,3,Crustle Wall,45,500,0.09,9.0,345,Crustle
+800-899,4,Mega Lucario,27,500,0.054,5.4,678,Mega Lucario ex
+800-899,5,Archaludon,26,500,0.052,5.2,190,Archaludon ex
+800-899,6,Teal Mask Ogerpon,17,500,0.034,3.4,96,Teal Mask Ogerpon ex
+800-899,7,Cynthia Garchomp,16,500,0.032,3.2,381,Cynthia's Garchomp ex
+800-899,8,Mega Froslass,11,500,0.022,2.2,861,Mega Froslass ex
+800-899,9,Dragapult,9,500,0.018,1.8,121,Dragapult ex
+800-899,10,Team Rocket Mewtwo,6,500,0.012,1.2,431,Team Rocket's Mewtwo ex
+700-799,1,Alakazam,153,500,0.306,30.6,743,Alakazam
+700-799,2,Archaludon,121,500,0.242,24.2,190,Archaludon ex
+700-799,3,Mega Lucario,63,500,0.126,12.6,678,Mega Lucario ex
+700-799,4,Marnie Grimmsnarl,49,500,0.098,9.8,648,Marnie's Grimmsnarl ex
+700-799,5,Crustle Wall,27,500,0.054,5.4,345,Crustle
+700-799,6,Dragapult,15,500,0.03,3.0,121,Dragapult ex
+700-799,7,Iono Bellibolt,13,500,0.026,2.6,269,Iono’s Bellibolt ex
+700-799,8,Cynthia Garchomp,8,500,0.016,1.6,381,Cynthia's Garchomp ex
+700-799,9,Great Tusk / Crustle,7,500,0.014,1.4,58,Great Tusk
+700-799,10,Mega Starmie,7,500,0.014,1.4,1031,Mega Starmie ex
+600-699,1,Mega Lucario,143,500,0.286,28.6,678,Mega Lucario ex
+600-699,2,Alakazam,75,500,0.15,15.0,743,Alakazam
+600-699,3,Dragapult,70,500,0.14,14.0,121,Dragapult ex
+600-699,4,Crustle Wall,40,500,0.08,8.0,345,Crustle
+600-699,5,Archaludon,30,500,0.06,6.0,190,Archaludon ex
+600-699,6,Marnie Grimmsnarl,29,500,0.058,5.8,648,Marnie's Grimmsnarl ex
+600-699,7,Great Tusk / Crustle,17,500,0.034,3.4,58,Great Tusk
+600-699,8,Iono Bellibolt,13,500,0.026,2.6,269,Iono’s Bellibolt ex
+600-699,9,Mega Froslass,13,500,0.026,2.6,861,Mega Froslass ex
+600-699,10,Mega Starmie,13,500,0.026,2.6,1031,Mega Starmie ex
+500-599,1,Mega Lucario,175,500,0.35,35.0,678,Mega Lucario ex
+500-599,2,Alakazam,65,500,0.13,13.0,743,Alakazam
+500-599,3,Crustle Wall,62,500,0.124,12.4,345,Crustle
+500-599,4,Mega Starmie,33,500,0.066,6.6,1031,Mega Starmie ex
+500-599,5,Dragapult,27,500,0.054,5.4,121,Dragapult ex
+500-599,6,Marnie Grimmsnarl,24,500,0.048,4.8,648,Marnie's Grimmsnarl ex
+500-599,7,Mega Abomasnow,18,500,0.036,3.6,723,Mega Abomasnow ex
+500-599,8,Hop Trevenant,16,500,0.032,3.2,879,Hop's Trevenant
+500-599,9,Mega Froslass,12,500,0.024,2.4,861,Mega Froslass ex
+500-599,10,Archaludon,8,500,0.016,1.6,190,Archaludon ex

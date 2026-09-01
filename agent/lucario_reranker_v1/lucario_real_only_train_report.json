@@ -1,0 +1,12 @@
+{
+  "n_rows": 35037,
+  "n_train_rows": 28313,
+  "n_held_rows": 6724,
+  "train_time_s": 9.366358995437622,
+  "auc_held": 0.849546722359408,
+  "decision_held": {
+    "n_decisions": 872,
+    "model_acc": 0.573394495412844,
+    "first_option_baseline_acc": 0.33715596330275227
+  }
+}

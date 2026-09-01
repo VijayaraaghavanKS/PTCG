@@ -1,0 +1,45 @@
+# --- OS / editor junk ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Kaggle credentials (never commit these) ---
+kaggle.json
+.kaggle/
+
+# --- Bulky training/replay data (regenerable, not meant for git) ---
+research/episodes/
+research/kaggle_episode_index/
+research/own_replays/
+research/own_replays_lucario/
+research/crossplay_run1/
+research/crossplay_lucario_run1/
+research/lucario_crossplay_train/
+*.jsonl
+
+# --- Large reference PDFs / raw datasets ---
+pokemon-tcg-ai-battle/Card_ID List_EN_.pdf
+research/datasets/
+
+# --- Per-agent build junk (keep the runtime code, drop the rest) ---
+agent/**/__pycache__/
+agent/**/*.jsonl
+agent/**/rows_*.jsonl
+agent/**/*_test/
+agent/**/submission.tar.gz
+
+# --- LaTeX build artifacts ---
+writeup/*.aux
+writeup/*.log
+writeup/*.out
+writeup/*.toc
+
+# --- Scratch / local-only ---
+*.log
+.env

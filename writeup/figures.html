@@ -1,0 +1,228 @@
+<title>PTCG Writeup Figures</title>
+<style>
+.viz-root {
+  color-scheme: light;
+  --surface-1: #fcfcfb;
+  --page: #f9f9f7;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --border: rgba(11,11,11,0.10);
+  --s1: #2a78d6; /* blue */
+  --s2: #eb6834; /* orange */
+  --s3: #1baf7a; /* aqua */
+  --s4: #eda100; /* yellow */
+  --good: #0ca30c;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .viz-root {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --border: rgba(255,255,255,0.10);
+    --s1: #3987e5;
+    --s2: #d95926;
+    --s3: #199e70;
+    --s4: #c98500;
+    --good: #0ca30c;
+  }
+}
+:root[data-theme="dark"] .viz-root {
+  color-scheme: dark;
+  --surface-1: #1a1a19;
+  --page: #0d0d0d;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --grid: #2c2c2a;
+  --axis: #383835;
+  --border: rgba(255,255,255,0.10);
+  --s1: #3987e5;
+  --s2: #d95926;
+  --s3: #199e70;
+  --s4: #c98500;
+  --good: #0ca30c;
+}
+body { margin:0; background: var(--page); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+.viz-root { padding: 28px 20px 40px; max-width: 900px; margin: 0 auto; }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 22px 24px; margin-bottom: 22px; }
+.card h2 { font-size: 15px; margin: 0 0 4px; color: var(--text-primary); }
+.card .sub { font-size: 12.5px; color: var(--text-secondary); margin: 0 0 18px; }
+svg text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+.axis-label { fill: var(--text-muted); font-size: 10.5px; }
+.grid-line { stroke: var(--grid); stroke-width: 1; }
+.baseline { stroke: var(--axis); stroke-width: 1; }
+.legend { display:flex; gap:16px; flex-wrap:wrap; margin-top:10px; font-size:11.5px; color: var(--text-secondary); }
+.legend span.dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; }
+.caption { font-size: 11.5px; color: var(--text-muted); margin-top: 10px; }
+.diagbox { fill: var(--surface-1); stroke: var(--axis); stroke-width: 1.25; rx: 8; }
+.diagtext { fill: var(--text-primary); font-size: 12px; font-weight: 600; }
+.diagsub { fill: var(--text-secondary); font-size: 10px; }
+.arrow { stroke: var(--text-muted); stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+</style>
+
+<div class="viz-root">
+
+<div class="card">
+  <h2>Live rating trajectory: the reranker breakthrough (submission 55464921)</h2>
+  <p class="sub">A single tracked Dragapult ex submission, μ₀=600 reset on entry, read at different points across the project</p>
+  <svg viewBox="0 0 820 320" width="100%" height="320">
+    <!-- linear scale: y = 30 + (1000-score)*0.3, so 1000->30, 800->90, 600->150, 400->210, 200->270 -->
+    <g>
+      <line x1="60" y1="30" x2="780" y2="30" class="grid-line"/>
+      <line x1="60" y1="90" x2="780" y2="90" class="grid-line"/>
+      <line x1="60" y1="150" x2="780" y2="150" class="grid-line"/>
+      <line x1="60" y1="210" x2="780" y2="210" class="grid-line"/>
+      <line x1="60" y1="270" x2="780" y2="270" class="baseline"/>
+      <text x="52" y="34" text-anchor="end" class="axis-label">1000</text>
+      <text x="52" y="94" text-anchor="end" class="axis-label">800</text>
+      <text x="52" y="154" text-anchor="end" class="axis-label">600</text>
+      <text x="52" y="214" text-anchor="end" class="axis-label">400</text>
+      <text x="52" y="274" text-anchor="end" class="axis-label">200</text>
+    </g>
+    <polyline fill="none" stroke="var(--s1)" stroke-width="2.5"
+      points="100,150 260,90.93 420,52.74 560,114 740,90.93" />
+    <g>
+      <circle cx="100" cy="150" r="4.5" fill="var(--s1)"/>
+      <circle cx="260" cy="90.93" r="4.5" fill="var(--s1)"/>
+      <circle cx="420" cy="52.74" r="4.5" fill="var(--s1)"/>
+      <circle cx="560" cy="114" r="4.5" fill="var(--s1)"/>
+      <circle cx="740" cy="90.93" r="4.5" fill="var(--s1)"/>
+    </g>
+    <g class="axis-label" text-anchor="middle">
+      <text x="100" y="292">Entry</text>
+      <text x="100" y="304">μ₀=600</text>
+      <text x="260" y="292">Aug 12, day</text>
+      <text x="260" y="304">796.9</text>
+      <text x="420" y="292">Aug 12, night</text>
+      <text x="420" y="304" fill="var(--text-primary)" font-weight="700">924.2 peak</text>
+      <text x="560" y="292">Later decay</text>
+      <text x="560" y="304">~720s</text>
+      <text x="740" y="292">Last read (frozen)</text>
+      <text x="740" y="304">796.9</text>
+    </g>
+  </svg>
+  <p class="caption">This tracks one specific historical submission (ref 55464921), frozen since it aged out of the tracked pair on Aug 16. It is not a live-updating number; it shows the reranker architecture's proven ceiling, not the final score.</p>
+  <div style="margin-top:14px; padding-top:14px; border-top:1px solid var(--grid); display:flex; gap:32px; flex-wrap:wrap;">
+    <div>
+      <div class="axis-label" style="font-size:11px;">Final frozen leaderboard result</div>
+      <div style="font-size:14px; color:var(--text-primary); font-weight:700; margin-top:4px;">dragapult_combined_final_v2: 590.0</div>
+      <div style="font-size:14px; color:var(--text-primary); font-weight:700;">lucario_crossplay_reranker_v1: 554.6</div>
+      <div style="font-size:12px; color:var(--text-secondary); margin-top:6px;">Rank 3829 of 6807 teams on the public leaderboard.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Before / after: three instrumented fixes, measured head-to-head</h2>
+  <p class="sub">Local win rate, n=150–499 per matchup, isolated A/B against the unmodified baseline</p>
+  <svg viewBox="0 0 820 260" width="100%" height="260">
+    <line x1="60" y1="210" x2="780" y2="210" class="baseline"/>
+    <line x1="60" y1="150" x2="780" y2="150" class="grid-line"/>
+    <line x1="60" y1="90" x2="780" y2="90" class="grid-line"/>
+    <line x1="60" y1="30" x2="780" y2="30" class="grid-line"/>
+    <text x="52" y="214" text-anchor="end" class="axis-label">0%</text>
+    <text x="52" y="154" text-anchor="end" class="axis-label">25%</text>
+    <text x="52" y="94" text-anchor="end" class="axis-label">50%</text>
+    <text x="52" y="34" text-anchor="end" class="axis-label">75%</text>
+
+    <!-- scale: 0% -> y=210, 75% -> y=30 (k=2.4px/pt) -->
+    <!-- group 1: Lucario matchup, deck-tune (Boss's Orders 3->4) -->
+    <rect x="130" y="96.0" width="42" height="114.0" fill="var(--s1)"/>
+    <rect x="176" y="74.4" width="42" height="135.6" fill="var(--s2)"/>
+    <text x="174" y="228" text-anchor="middle" class="axis-label">Lucario matchup</text>
+    <text x="174" y="240" text-anchor="middle" class="axis-label">(deck-tune fix)</text>
+    <text x="151" y="90" text-anchor="middle" class="axis-label">47.5%</text>
+    <text x="197" y="68" text-anchor="middle" class="axis-label" font-weight="700">56.5%</text>
+
+    <!-- group 2: Stage-2 matchup, Gravity Mountain fix -->
+    <rect x="360" y="88.08" width="42" height="121.92" fill="var(--s1)"/>
+    <rect x="406" y="80.40" width="42" height="129.60" fill="var(--s2)"/>
+    <text x="404" y="228" text-anchor="middle" class="axis-label">Stage-2 matchup</text>
+    <text x="404" y="240" text-anchor="middle" class="axis-label">(Gravity Mountain fix)</text>
+    <text x="381" y="82" text-anchor="middle" class="axis-label">50.8%</text>
+    <text x="427" y="74" text-anchor="middle" class="axis-label" font-weight="700">54.0%</text>
+
+    <!-- group 3: Boss's Orders play-rate, wall-gust sequencing fix -->
+    <rect x="600" y="100.56" width="42" height="109.44" fill="var(--s1)"/>
+    <rect x="646" y="90.96" width="42" height="119.04" fill="var(--s2)"/>
+    <text x="621" y="228" text-anchor="middle" class="axis-label">Boss's Orders play-rate</text>
+    <text x="621" y="240" text-anchor="middle" class="axis-label">(wall-gust sequencing fix)</text>
+    <text x="621" y="95" text-anchor="middle" class="axis-label">45.6%</text>
+    <text x="667" y="85" text-anchor="middle" class="axis-label" font-weight="700">49.6%</text>
+  </svg>
+  <div class="legend">
+    <div><span class="dot" style="background:var(--s1)"></span>Before fix</div>
+    <div><span class="dot" style="background:var(--s2)"></span>After fix</div>
+  </div>
+  <p class="caption">Each fix was found via instrumentation of real game logs (not guesswork) and re-verified with a differential test before shipping.</p>
+</div>
+
+<div class="card">
+  <h2>Real opponent-meta mining (84 real ladder replays)</h2>
+  <p class="sub">Mega Lucario ex was both the single most common opponent and the project's worst matchup</p>
+  <svg viewBox="0 0 820 140" width="100%" height="140">
+    <text x="60" y="28" class="axis-label" font-size="12" fill="var(--text-primary)">Mega Lucario ex</text>
+    <rect x="220" y="14" width="326" height="24" rx="4" fill="var(--s2)"/>
+    <text x="556" y="31" class="axis-label" font-weight="700">22.6% of real opponents</text>
+
+    <text x="60" y="78" class="axis-label" font-size="12" fill="var(--text-primary)">All other archetypes</text>
+    <rect x="220" y="64" width="446" height="24" rx="4" fill="var(--s1)"/>
+    <text x="676" y="81" class="axis-label" font-weight="700">77.4% (split across ~21 decks)</text>
+
+    <text x="60" y="128" class="axis-label" font-size="12" fill="var(--text-primary)">Pre-fix win rate vs. it</text>
+    <rect x="220" y="114" width="459" height="24" rx="4" fill="var(--s4)"/>
+    <text x="60" y="128" class="axis-label" font-size="11" fill="var(--text-primary)"></text>
+    <rect x="220" y="114" width="141" height="24" rx="4" fill="var(--good)"/>
+    <text x="371" y="131" class="axis-label" font-weight="700">31.6% (worst matchup project-wide)</text>
+  </svg>
+  <p class="caption">This finding, not an assumption, is why matchup-strengthening effort was concentrated on the Mega Lucario ex line.</p>
+</div>
+
+<div class="card">
+  <h2>Model architecture: heuristic-primary, margin-gated reranker</h2>
+  <p class="sub">Safe by construction: the heuristic always computes first; the learned layer can only break near-ties</p>
+  <svg viewBox="0 0 820 200" width="100%" height="200">
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="var(--text-muted)"/>
+      </marker>
+    </defs>
+    <rect x="30" y="70" width="170" height="60" rx="8" class="diagbox"/>
+    <text x="115" y="96" text-anchor="middle" class="diagtext">Game state</text>
+    <text x="115" y="112" text-anchor="middle" class="diagsub">legal options, board, hand</text>
+
+    <path class="arrow" d="M200,100 L255,100"/>
+
+    <rect x="260" y="70" width="200" height="60" rx="8" class="diagbox"/>
+    <text x="360" y="92" text-anchor="middle" class="diagtext">Heuristic (primary)</text>
+    <text x="360" y="108" text-anchor="middle" class="diagsub">ranks every legal option,</text>
+    <text x="360" y="120" text-anchor="middle" class="diagsub">always computes first</text>
+
+    <path class="arrow" d="M460,100 L515,100"/>
+
+    <rect x="520" y="70" width="200" height="60" rx="8" class="diagbox"/>
+    <text x="620" y="92" text-anchor="middle" class="diagtext">Margin gate</text>
+    <text x="620" y="108" text-anchor="middle" class="diagsub">near-tie AND in allowlisted</text>
+    <text x="620" y="120" text-anchor="middle" class="diagsub">safe decision types?</text>
+
+    <path class="arrow" d="M620,130 L620,168 L400,168 L400,145"/>
+    <text x="500" y="182" text-anchor="middle" class="diagsub" fill="var(--text-muted)">no → plays heuristic's top pick directly</text>
+
+    <rect x="530" y="4" width="180" height="46" rx="8" class="diagbox"/>
+    <text x="620" y="24" text-anchor="middle" class="diagtext" font-size="11">BC-GBDT reranker</text>
+    <text x="620" y="40" text-anchor="middle" class="diagsub">breaks the tie, plays its pick</text>
+    <path class="arrow" d="M620,70 L620,52"/>
+    <text x="655" y="65" text-anchor="middle" class="diagsub" fill="var(--text-muted)">yes</text>
+  </svg>
+  <p class="caption">BC-GBDT reranker trained on real top-player ladder replays; overrides the heuristic's pick only on near-tied, non-plan-critical decisions.</p>
+</div>
+
+</div>

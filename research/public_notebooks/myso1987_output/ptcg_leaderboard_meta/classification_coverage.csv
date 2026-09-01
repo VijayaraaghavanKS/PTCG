@@ -1,0 +1,8 @@
+﻿score_band,leaderboard_teams,decks_retrieved,decks_not_retrieved,retrieval_coverage,http_429_skipped_teams,classified_teams,not_aggregated_teams,classification_coverage,archetype_results_published
+1100+,16,16,0,1.0,0,16,0,1.0,True
+1000-1099,81,81,0,1.0,0,81,0,1.0,True
+900-999,262,262,0,1.0,0,262,0,1.0,True
+800-899,500,500,0,1.0,0,500,0,1.0,True
+700-799,500,500,0,1.0,0,500,0,1.0,True
+600-699,500,500,0,1.0,0,500,0,1.0,True
+500-599,500,500,0,1.0,0,500,0,1.0,True

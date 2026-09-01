@@ -1,0 +1,1373 @@
+[
+  {
+    "opponent": "ga_v1",
+    "wins": 27,
+    "games": 60,
+    "win_rate": 0.45,
+    "wall_time_s": 32.9170880317688,
+    "total_selects": 7607,
+    "search_stats": {
+      "decisions_seen": 1622,
+      "attempts": 1622,
+      "overrides": 152,
+      "fails": 0,
+      "total_ms": 31618.790510226972
+    },
+    "per_game": [
+      {
+        "game": 0,
+        "win": true,
+        "selects": 97,
+        "time_s": 0.20795607566833496
+      },
+      {
+        "game": 1,
+        "win": true,
+        "selects": 183,
+        "time_s": 0.8624899387359619
+      },
+      {
+        "game": 2,
+        "win": true,
+        "selects": 129,
+        "time_s": 0.9096779823303223
+      },
+      {
+        "game": 3,
+        "win": true,
+        "selects": 31,
+        "time_s": 0.10246086120605469
+      },
+      {
+        "game": 4,
+        "win": false,
+        "selects": 141,
+        "time_s": 0.8106999397277832
+      },
+      {
+        "game": 5,
+        "win": false,
+        "selects": 141,
+        "time_s": 0.7929849624633789
+      },
+      {
+        "game": 6,
+        "win": false,
+        "selects": 121,
+        "time_s": 0.6580259799957275
+      },
+      {
+        "game": 7,
+        "win": false,
+        "selects": 129,
+        "time_s": 0.05622696876525879
+      },
+      {
+        "game": 8,
+        "win": true,
+        "selects": 159,
+        "time_s": 0.5415759086608887
+      },
+      {
+        "game": 9,
+        "win": false,
+        "selects": 95,
+        "time_s": 0.16765499114990234
+      },
+      {
+        "game": 10,
+        "win": false,
+        "selects": 139,
+        "time_s": 0.644888162612915
+      },
+      {
+        "game": 11,
+        "win": true,
+        "selects": 136,
+        "time_s": 0.8396091461181641
+      },
+      {
+        "game": 12,
+        "win": true,
+        "selects": 132,
+        "time_s": 0.7118330001831055
+      },
+      {
+        "game": 13,
+        "win": true,
+        "selects": 132,
+        "time_s": 0.37377190589904785
+      },
+      {
+        "game": 14,
+        "win": false,
+        "selects": 143,
+        "time_s": 1.0177969932556152
+      },
+      {
+        "game": 15,
+        "win": false,
+        "selects": 140,
+        "time_s": 0.3197927474975586
+      },
+      {
+        "game": 16,
+        "win": true,
+        "selects": 98,
+        "time_s": 0.6177380084991455
+      },
+      {
+        "game": 17,
+        "win": false,
+        "selects": 145,
+        "time_s": 0.509929895401001
+      },
+      {
+        "game": 18,
+        "win": true,
+        "selects": 113,
+        "time_s": 0.7715861797332764
+      },
+      {
+        "game": 19,
+        "win": false,
+        "selects": 119,
+        "time_s": 0.29812002182006836
+      },
+      {
+        "game": 20,
+        "win": true,
+        "selects": 151,
+        "time_s": 1.0011987686157227
+      },
+      {
+        "game": 21,
+        "win": false,
+        "selects": 124,
+        "time_s": 0.6011910438537598
+      },
+      {
+        "game": 22,
+        "win": false,
+        "selects": 145,
+        "time_s": 0.45316410064697266
+      },
+      {
+        "game": 23,
+        "win": true,
+        "selects": 155,
+        "time_s": 1.005613088607788
+      },
+      {
+        "game": 24,
+        "win": false,
+        "selects": 151,
+        "time_s": 0.6700091361999512
+      },
+      {
+        "game": 25,
+        "win": false,
+        "selects": 140,
+        "time_s": 0.48463988304138184
+      },
+      {
+        "game": 26,
+        "win": true,
+        "selects": 159,
+        "time_s": 0.7347712516784668
+      },
+      {
+        "game": 27,
+        "win": true,
+        "selects": 123,
+        "time_s": 0.8260469436645508
+      },
+      {
+        "game": 28,
+        "win": true,
+        "selects": 148,
+        "time_s": 0.599031925201416
+      },
+      {
+        "game": 29,
+        "win": false,
+        "selects": 119,
+        "time_s": 0.22922396659851074
+      },
+      {
+        "game": 30,
+        "win": true,
+        "selects": 154,
+        "time_s": 0.5882740020751953
+      },
+      {
+        "game": 31,
+        "win": false,
+        "selects": 119,
+        "time_s": 0.2691929340362549
+      },
+      {
+        "game": 32,
+        "win": true,
+        "selects": 152,
+        "time_s": 0.8185269832611084
+      },
+      {
+        "game": 33,
+        "win": true,
+        "selects": 110,
+        "time_s": 0.6634571552276611
+      },
+      {
+        "game": 34,
+        "win": false,
+        "selects": 107,
+        "time_s": 0.4321761131286621
+      },
+      {
+        "game": 35,
+        "win": false,
+        "selects": 127,
+        "time_s": 0.7450060844421387
+      },
+      {
+        "game": 36,
+        "win": false,
+        "selects": 43,
+        "time_s": 0.012528181076049805
+      },
+      {
+        "game": 37,
+        "win": false,
+        "selects": 129,
+        "time_s": 0.6287260055541992
+      },
+      {
+        "game": 38,
+        "win": false,
+        "selects": 35,
+        "time_s": 0.01856207847595215
+      },
+      {
+        "game": 39,
+        "win": true,
+        "selects": 112,
+        "time_s": 0.05911993980407715
+      },
+      {
+        "game": 40,
+        "win": true,
+        "selects": 143,
+        "time_s": 0.5381202697753906
+      },
+      {
+        "game": 41,
+        "win": false,
+        "selects": 127,
+        "time_s": 0.35863399505615234
+      },
+      {
+        "game": 42,
+        "win": false,
+        "selects": 129,
+        "time_s": 0.37250804901123047
+      },
+      {
+        "game": 43,
+        "win": true,
+        "selects": 178,
+        "time_s": 0.718756914138794
+      },
+      {
+        "game": 44,
+        "win": false,
+        "selects": 92,
+        "time_s": 0.3516397476196289
+      },
+      {
+        "game": 45,
+        "win": true,
+        "selects": 122,
+        "time_s": 0.5654191970825195
+      },
+      {
+        "game": 46,
+        "win": false,
+        "selects": 137,
+        "time_s": 0.9008059501647949
+      },
+      {
+        "game": 47,
+        "win": true,
+        "selects": 157,
+        "time_s": 0.4475901126861572
+      },
+      {
+        "game": 48,
+        "win": false,
+        "selects": 102,
+        "time_s": 0.0699012279510498
+      },
+      {
+        "game": 49,
+        "win": true,
+        "selects": 129,
+        "time_s": 0.5601508617401123
+      },
+      {
+        "game": 50,
+        "win": false,
+        "selects": 140,
+        "time_s": 0.6869721412658691
+      },
+      {
+        "game": 51,
+        "win": true,
+        "selects": 176,
+        "time_s": 0.7554900646209717
+      },
+      {
+        "game": 52,
+        "win": false,
+        "selects": 124,
+        "time_s": 0.5525140762329102
+      },
+      {
+        "game": 53,
+        "win": false,
+        "selects": 138,
+        "time_s": 0.21546697616577148
+      },
+      {
+        "game": 54,
+        "win": false,
+        "selects": 140,
+        "time_s": 0.7749989032745361
+      },
+      {
+        "game": 55,
+        "win": false,
+        "selects": 115,
+        "time_s": 0.5048892498016357
+      },
+      {
+        "game": 56,
+        "win": true,
+        "selects": 137,
+        "time_s": 0.5611739158630371
+      },
+      {
+        "game": 57,
+        "win": true,
+        "selects": 122,
+        "time_s": 0.8349051475524902
+      },
+      {
+        "game": 58,
+        "win": false,
+        "selects": 156,
+        "time_s": 1.0893471240997314
+      },
+      {
+        "game": 59,
+        "win": false,
+        "selects": 17,
+        "time_s": 0.0020360946655273438
+      }
+    ]
+  },
+  {
+    "opponent": "dragapult_day1",
+    "wins": 16,
+    "games": 60,
+    "win_rate": 0.26666666666666666,
+    "wall_time_s": 26.43186926841736,
+    "total_selects": 8663,
+    "search_stats": {
+      "decisions_seen": 1343,
+      "attempts": 1343,
+      "overrides": 123,
+      "fails": 0,
+      "total_ms": 24865.057524119038
+    },
+    "per_game": [
+      {
+        "game": 0,
+        "win": true,
+        "selects": 116,
+        "time_s": 0.38860416412353516
+      },
+      {
+        "game": 1,
+        "win": true,
+        "selects": 177,
+        "time_s": 0.6292448043823242
+      },
+      {
+        "game": 2,
+        "win": true,
+        "selects": 202,
+        "time_s": 1.090101957321167
+      },
+      {
+        "game": 3,
+        "win": false,
+        "selects": 142,
+        "time_s": 0.6282410621643066
+      },
+      {
+        "game": 4,
+        "win": true,
+        "selects": 167,
+        "time_s": 0.7036280632019043
+      },
+      {
+        "game": 5,
+        "win": true,
+        "selects": 46,
+        "time_s": 0.10866522789001465
+      },
+      {
+        "game": 6,
+        "win": false,
+        "selects": 127,
+        "time_s": 0.47002291679382324
+      },
+      {
+        "game": 7,
+        "win": false,
+        "selects": 87,
+        "time_s": 0.026559114456176758
+      },
+      {
+        "game": 8,
+        "win": false,
+        "selects": 137,
+        "time_s": 0.2868349552154541
+      },
+      {
+        "game": 9,
+        "win": false,
+        "selects": 122,
+        "time_s": 0.1457228660583496
+      },
+      {
+        "game": 10,
+        "win": false,
+        "selects": 159,
+        "time_s": 0.2611052989959717
+      },
+      {
+        "game": 11,
+        "win": true,
+        "selects": 114,
+        "time_s": 0.623039960861206
+      },
+      {
+        "game": 12,
+        "win": false,
+        "selects": 154,
+        "time_s": 0.21754813194274902
+      },
+      {
+        "game": 13,
+        "win": false,
+        "selects": 152,
+        "time_s": 0.5590047836303711
+      },
+      {
+        "game": 14,
+        "win": false,
+        "selects": 174,
+        "time_s": 0.7748279571533203
+      },
+      {
+        "game": 15,
+        "win": false,
+        "selects": 192,
+        "time_s": 0.5404050350189209
+      },
+      {
+        "game": 16,
+        "win": false,
+        "selects": 193,
+        "time_s": 0.7784159183502197
+      },
+      {
+        "game": 17,
+        "win": false,
+        "selects": 111,
+        "time_s": 0.0636591911315918
+      },
+      {
+        "game": 18,
+        "win": false,
+        "selects": 142,
+        "time_s": 0.4545021057128906
+      },
+      {
+        "game": 19,
+        "win": false,
+        "selects": 156,
+        "time_s": 0.5125868320465088
+      },
+      {
+        "game": 20,
+        "win": false,
+        "selects": 108,
+        "time_s": 0.09890389442443848
+      },
+      {
+        "game": 21,
+        "win": false,
+        "selects": 159,
+        "time_s": 0.3081319332122803
+      },
+      {
+        "game": 22,
+        "win": false,
+        "selects": 178,
+        "time_s": 0.7510528564453125
+      },
+      {
+        "game": 23,
+        "win": false,
+        "selects": 139,
+        "time_s": 0.18001675605773926
+      },
+      {
+        "game": 24,
+        "win": true,
+        "selects": 133,
+        "time_s": 0.3179779052734375
+      },
+      {
+        "game": 25,
+        "win": true,
+        "selects": 81,
+        "time_s": 0.3336808681488037
+      },
+      {
+        "game": 26,
+        "win": false,
+        "selects": 183,
+        "time_s": 0.6236400604248047
+      },
+      {
+        "game": 27,
+        "win": false,
+        "selects": 158,
+        "time_s": 0.2185070514678955
+      },
+      {
+        "game": 28,
+        "win": false,
+        "selects": 158,
+        "time_s": 0.7061710357666016
+      },
+      {
+        "game": 29,
+        "win": true,
+        "selects": 128,
+        "time_s": 0.3687858581542969
+      },
+      {
+        "game": 30,
+        "win": true,
+        "selects": 17,
+        "time_s": 0.05993223190307617
+      },
+      {
+        "game": 31,
+        "win": false,
+        "selects": 177,
+        "time_s": 0.6806180477142334
+      },
+      {
+        "game": 32,
+        "win": true,
+        "selects": 111,
+        "time_s": 0.5594909191131592
+      },
+      {
+        "game": 33,
+        "win": false,
+        "selects": 170,
+        "time_s": 0.6205108165740967
+      },
+      {
+        "game": 34,
+        "win": false,
+        "selects": 180,
+        "time_s": 0.9047207832336426
+      },
+      {
+        "game": 35,
+        "win": false,
+        "selects": 144,
+        "time_s": 0.5830681324005127
+      },
+      {
+        "game": 36,
+        "win": false,
+        "selects": 123,
+        "time_s": 0.24947524070739746
+      },
+      {
+        "game": 37,
+        "win": false,
+        "selects": 136,
+        "time_s": 0.09186196327209473
+      },
+      {
+        "game": 38,
+        "win": false,
+        "selects": 132,
+        "time_s": 0.23148703575134277
+      },
+      {
+        "game": 39,
+        "win": false,
+        "selects": 153,
+        "time_s": 0.16295886039733887
+      },
+      {
+        "game": 40,
+        "win": true,
+        "selects": 152,
+        "time_s": 0.7577860355377197
+      },
+      {
+        "game": 41,
+        "win": true,
+        "selects": 151,
+        "time_s": 0.30864524841308594
+      },
+      {
+        "game": 42,
+        "win": false,
+        "selects": 168,
+        "time_s": 0.2898428440093994
+      },
+      {
+        "game": 43,
+        "win": true,
+        "selects": 161,
+        "time_s": 0.5707831382751465
+      },
+      {
+        "game": 44,
+        "win": false,
+        "selects": 154,
+        "time_s": 0.11836910247802734
+      },
+      {
+        "game": 45,
+        "win": false,
+        "selects": 193,
+        "time_s": 0.6545429229736328
+      },
+      {
+        "game": 46,
+        "win": true,
+        "selects": 186,
+        "time_s": 0.7534291744232178
+      },
+      {
+        "game": 47,
+        "win": false,
+        "selects": 150,
+        "time_s": 0.6107208728790283
+      },
+      {
+        "game": 48,
+        "win": true,
+        "selects": 28,
+        "time_s": 0.07535314559936523
+      },
+      {
+        "game": 49,
+        "win": false,
+        "selects": 147,
+        "time_s": 0.24091601371765137
+      },
+      {
+        "game": 50,
+        "win": false,
+        "selects": 123,
+        "time_s": 0.6621479988098145
+      },
+      {
+        "game": 51,
+        "win": false,
+        "selects": 163,
+        "time_s": 0.7323429584503174
+      },
+      {
+        "game": 52,
+        "win": false,
+        "selects": 108,
+        "time_s": 0.23978614807128906
+      },
+      {
+        "game": 53,
+        "win": false,
+        "selects": 161,
+        "time_s": 0.3303227424621582
+      },
+      {
+        "game": 54,
+        "win": false,
+        "selects": 175,
+        "time_s": 0.7678360939025879
+      },
+      {
+        "game": 55,
+        "win": false,
+        "selects": 156,
+        "time_s": 0.6997890472412109
+      },
+      {
+        "game": 56,
+        "win": false,
+        "selects": 131,
+        "time_s": 0.14793014526367188
+      },
+      {
+        "game": 57,
+        "win": false,
+        "selects": 208,
+        "time_s": 0.5666570663452148
+      },
+      {
+        "game": 58,
+        "win": false,
+        "selects": 132,
+        "time_s": 0.3585343360900879
+      },
+      {
+        "game": 59,
+        "win": false,
+        "selects": 178,
+        "time_s": 0.23193979263305664
+      }
+    ]
+  },
+  {
+    "opponent": "iono_day1",
+    "wins": 54,
+    "games": 100,
+    "win_rate": 0.54,
+    "wall_time_s": 43.74096393585205,
+    "total_selects": 17019,
+    "search_stats": {
+      "decisions_seen": 2260,
+      "attempts": 2260,
+      "overrides": 283,
+      "fails": 0,
+      "total_ms": 40949.63256351184
+    },
+    "per_game": [
+      {
+        "game": 0,
+        "win": true,
+        "selects": 15,
+        "time_s": 0.06821298599243164
+      },
+      {
+        "game": 1,
+        "win": false,
+        "selects": 227,
+        "time_s": 0.5929121971130371
+      },
+      {
+        "game": 2,
+        "win": true,
+        "selects": 19,
+        "time_s": 0.06883788108825684
+      },
+      {
+        "game": 3,
+        "win": false,
+        "selects": 224,
+        "time_s": 0.6018259525299072
+      },
+      {
+        "game": 4,
+        "win": false,
+        "selects": 212,
+        "time_s": 0.28626108169555664
+      },
+      {
+        "game": 5,
+        "win": true,
+        "selects": 21,
+        "time_s": 0.15188097953796387
+      },
+      {
+        "game": 6,
+        "win": false,
+        "selects": 224,
+        "time_s": 0.5337667465209961
+      },
+      {
+        "game": 7,
+        "win": false,
+        "selects": 246,
+        "time_s": 0.47154808044433594
+      },
+      {
+        "game": 8,
+        "win": false,
+        "selects": 233,
+        "time_s": 0.5241270065307617
+      },
+      {
+        "game": 9,
+        "win": true,
+        "selects": 223,
+        "time_s": 0.5215921401977539
+      },
+      {
+        "game": 10,
+        "win": false,
+        "selects": 208,
+        "time_s": 0.1385970115661621
+      },
+      {
+        "game": 11,
+        "win": true,
+        "selects": 222,
+        "time_s": 0.4839329719543457
+      },
+      {
+        "game": 12,
+        "win": true,
+        "selects": 91,
+        "time_s": 0.6348211765289307
+      },
+      {
+        "game": 13,
+        "win": false,
+        "selects": 256,
+        "time_s": 0.8739020824432373
+      },
+      {
+        "game": 14,
+        "win": true,
+        "selects": 13,
+        "time_s": 0.028356313705444336
+      },
+      {
+        "game": 15,
+        "win": false,
+        "selects": 161,
+        "time_s": 0.733593225479126
+      },
+      {
+        "game": 16,
+        "win": false,
+        "selects": 214,
+        "time_s": 0.5724689960479736
+      },
+      {
+        "game": 17,
+        "win": false,
+        "selects": 200,
+        "time_s": 0.3318636417388916
+      },
+      {
+        "game": 18,
+        "win": false,
+        "selects": 254,
+        "time_s": 0.512969970703125
+      },
+      {
+        "game": 19,
+        "win": true,
+        "selects": 230,
+        "time_s": 0.5596659183502197
+      },
+      {
+        "game": 20,
+        "win": true,
+        "selects": 223,
+        "time_s": 0.6589818000793457
+      },
+      {
+        "game": 21,
+        "win": false,
+        "selects": 215,
+        "time_s": 0.5533711910247803
+      },
+      {
+        "game": 22,
+        "win": false,
+        "selects": 233,
+        "time_s": 0.4589419364929199
+      },
+      {
+        "game": 23,
+        "win": false,
+        "selects": 190,
+        "time_s": 0.15804123878479004
+      },
+      {
+        "game": 24,
+        "win": false,
+        "selects": 202,
+        "time_s": 0.43422985076904297
+      },
+      {
+        "game": 25,
+        "win": false,
+        "selects": 285,
+        "time_s": 0.8194258213043213
+      },
+      {
+        "game": 26,
+        "win": false,
+        "selects": 185,
+        "time_s": 0.31292080879211426
+      },
+      {
+        "game": 27,
+        "win": false,
+        "selects": 214,
+        "time_s": 0.27049875259399414
+      },
+      {
+        "game": 28,
+        "win": true,
+        "selects": 31,
+        "time_s": 0.10103988647460938
+      },
+      {
+        "game": 29,
+        "win": false,
+        "selects": 242,
+        "time_s": 0.6933450698852539
+      },
+      {
+        "game": 30,
+        "win": false,
+        "selects": 236,
+        "time_s": 0.48652100563049316
+      },
+      {
+        "game": 31,
+        "win": true,
+        "selects": 168,
+        "time_s": 0.5919432640075684
+      },
+      {
+        "game": 32,
+        "win": true,
+        "selects": 83,
+        "time_s": 0.31085705757141113
+      },
+      {
+        "game": 33,
+        "win": true,
+        "selects": 20,
+        "time_s": 0.12427425384521484
+      },
+      {
+        "game": 34,
+        "win": false,
+        "selects": 202,
+        "time_s": 0.4941246509552002
+      },
+      {
+        "game": 35,
+        "win": false,
+        "selects": 74,
+        "time_s": 0.10926270484924316
+      },
+      {
+        "game": 36,
+        "win": false,
+        "selects": 225,
+        "time_s": 0.6312589645385742
+      },
+      {
+        "game": 37,
+        "win": true,
+        "selects": 228,
+        "time_s": 0.5508682727813721
+      },
+      {
+        "game": 38,
+        "win": true,
+        "selects": 214,
+        "time_s": 0.7628457546234131
+      },
+      {
+        "game": 39,
+        "win": true,
+        "selects": 178,
+        "time_s": 0.5820388793945312
+      },
+      {
+        "game": 40,
+        "win": false,
+        "selects": 201,
+        "time_s": 0.3351469039916992
+      },
+      {
+        "game": 41,
+        "win": false,
+        "selects": 182,
+        "time_s": 0.3842132091522217
+      },
+      {
+        "game": 42,
+        "win": true,
+        "selects": 163,
+        "time_s": 0.710439920425415
+      },
+      {
+        "game": 43,
+        "win": true,
+        "selects": 101,
+        "time_s": 0.474149227142334
+      },
+      {
+        "game": 44,
+        "win": true,
+        "selects": 16,
+        "time_s": 0.10062122344970703
+      },
+      {
+        "game": 45,
+        "win": true,
+        "selects": 239,
+        "time_s": 0.93625807762146
+      },
+      {
+        "game": 46,
+        "win": true,
+        "selects": 16,
+        "time_s": 0.06470298767089844
+      },
+      {
+        "game": 47,
+        "win": false,
+        "selects": 180,
+        "time_s": 0.085662841796875
+      },
+      {
+        "game": 48,
+        "win": true,
+        "selects": 213,
+        "time_s": 0.8979721069335938
+      },
+      {
+        "game": 49,
+        "win": false,
+        "selects": 171,
+        "time_s": 0.33110928535461426
+      },
+      {
+        "game": 50,
+        "win": true,
+        "selects": 267,
+        "time_s": 0.7427120208740234
+      },
+      {
+        "game": 51,
+        "win": true,
+        "selects": 190,
+        "time_s": 0.5000960826873779
+      },
+      {
+        "game": 52,
+        "win": true,
+        "selects": 226,
+        "time_s": 0.4449341297149658
+      },
+      {
+        "game": 53,
+        "win": true,
+        "selects": 222,
+        "time_s": 0.663377046585083
+      },
+      {
+        "game": 54,
+        "win": true,
+        "selects": 204,
+        "time_s": 0.7698478698730469
+      },
+      {
+        "game": 55,
+        "win": true,
+        "selects": 173,
+        "time_s": 0.8284847736358643
+      },
+      {
+        "game": 56,
+        "win": false,
+        "selects": 160,
+        "time_s": 0.16384410858154297
+      },
+      {
+        "game": 57,
+        "win": false,
+        "selects": 246,
+        "time_s": 0.6789169311523438
+      },
+      {
+        "game": 58,
+        "win": true,
+        "selects": 22,
+        "time_s": 0.04951024055480957
+      },
+      {
+        "game": 59,
+        "win": true,
+        "selects": 209,
+        "time_s": 0.6401381492614746
+      },
+      {
+        "game": 60,
+        "win": true,
+        "selects": 234,
+        "time_s": 0.614142894744873
+      },
+      {
+        "game": 61,
+        "win": true,
+        "selects": 182,
+        "time_s": 0.43340086936950684
+      },
+      {
+        "game": 62,
+        "win": true,
+        "selects": 13,
+        "time_s": 0.0694890022277832
+      },
+      {
+        "game": 63,
+        "win": true,
+        "selects": 216,
+        "time_s": 0.47989916801452637
+      },
+      {
+        "game": 64,
+        "win": true,
+        "selects": 133,
+        "time_s": 0.6583220958709717
+      },
+      {
+        "game": 65,
+        "win": false,
+        "selects": 126,
+        "time_s": 0.06450295448303223
+      },
+      {
+        "game": 66,
+        "win": true,
+        "selects": 15,
+        "time_s": 0.037584781646728516
+      },
+      {
+        "game": 67,
+        "win": true,
+        "selects": 207,
+        "time_s": 0.7504730224609375
+      },
+      {
+        "game": 68,
+        "win": true,
+        "selects": 17,
+        "time_s": 0.10931706428527832
+      },
+      {
+        "game": 69,
+        "win": true,
+        "selects": 234,
+        "time_s": 0.7568891048431396
+      },
+      {
+        "game": 70,
+        "win": true,
+        "selects": 87,
+        "time_s": 0.24443912506103516
+      },
+      {
+        "game": 71,
+        "win": true,
+        "selects": 213,
+        "time_s": 0.5118670463562012
+      },
+      {
+        "game": 72,
+        "win": false,
+        "selects": 229,
+        "time_s": 0.9408409595489502
+      },
+      {
+        "game": 73,
+        "win": true,
+        "selects": 17,
+        "time_s": 0.10157418251037598
+      },
+      {
+        "game": 74,
+        "win": true,
+        "selects": 28,
+        "time_s": 0.23316311836242676
+      },
+      {
+        "game": 75,
+        "win": true,
+        "selects": 176,
+        "time_s": 0.21656203269958496
+      },
+      {
+        "game": 76,
+        "win": false,
+        "selects": 182,
+        "time_s": 0.16014575958251953
+      },
+      {
+        "game": 77,
+        "win": true,
+        "selects": 200,
+        "time_s": 0.39708805084228516
+      },
+      {
+        "game": 78,
+        "win": true,
+        "selects": 146,
+        "time_s": 0.5163059234619141
+      },
+      {
+        "game": 79,
+        "win": true,
+        "selects": 173,
+        "time_s": 0.6960670948028564
+      },
+      {
+        "game": 80,
+        "win": false,
+        "selects": 210,
+        "time_s": 0.47089719772338867
+      },
+      {
+        "game": 81,
+        "win": true,
+        "selects": 17,
+        "time_s": 0.09406399726867676
+      },
+      {
+        "game": 82,
+        "win": false,
+        "selects": 95,
+        "time_s": 0.08768272399902344
+      },
+      {
+        "game": 83,
+        "win": false,
+        "selects": 130,
+        "time_s": 0.12442994117736816
+      },
+      {
+        "game": 84,
+        "win": false,
+        "selects": 240,
+        "time_s": 0.5123381614685059
+      },
+      {
+        "game": 85,
+        "win": true,
+        "selects": 231,
+        "time_s": 0.3479130268096924
+      },
+      {
+        "game": 86,
+        "win": false,
+        "selects": 210,
+        "time_s": 0.6213431358337402
+      },
+      {
+        "game": 87,
+        "win": false,
+        "selects": 231,
+        "time_s": 0.4544188976287842
+      },
+      {
+        "game": 88,
+        "win": false,
+        "selects": 218,
+        "time_s": 0.5209898948669434
+      },
+      {
+        "game": 89,
+        "win": false,
+        "selects": 66,
+        "time_s": 0.04316997528076172
+      },
+      {
+        "game": 90,
+        "win": false,
+        "selects": 246,
+        "time_s": 0.6416308879852295
+      },
+      {
+        "game": 91,
+        "win": true,
+        "selects": 149,
+        "time_s": 0.429718017578125
+      },
+      {
+        "game": 92,
+        "win": true,
+        "selects": 193,
+        "time_s": 0.43201589584350586
+      },
+      {
+        "game": 93,
+        "win": true,
+        "selects": 260,
+        "time_s": 0.49724316596984863
+      },
+      {
+        "game": 94,
+        "win": true,
+        "selects": 184,
+        "time_s": 0.4183030128479004
+      },
+      {
+        "game": 95,
+        "win": false,
+        "selects": 268,
+        "time_s": 0.7620811462402344
+      },
+      {
+        "game": 96,
+        "win": false,
+        "selects": 233,
+        "time_s": 0.8045241832733154
+      },
+      {
+        "game": 97,
+        "win": false,
+        "selects": 224,
+        "time_s": 0.36731410026550293
+      },
+      {
+        "game": 98,
+        "win": true,
+        "selects": 17,
+        "time_s": 0.05753016471862793
+      },
+      {
+        "game": 99,
+        "win": false,
+        "selects": 227,
+        "time_s": 0.4624509811401367
+      }
+    ]
+  }
+]

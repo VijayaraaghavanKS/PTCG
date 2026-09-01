@@ -1,0 +1,18 @@
+{
+  "damage_progress": 63.12372262323399,
+  "ko_prize_value": 901.7377130657528,
+  "energy_on_attacker": 5.986848186560567,
+  "active_attacker_bonus": 41.016693128576854,
+  "gust_bonus": 263.102306692876,
+  "energy_attach_readiness": 46.99507924717307,
+  "energy_attach_active_bonus": 25.821545086794455,
+  "evolution_progress": 147.61216597764565,
+  "card_draw_value": 75.21385210269779,
+  "bench_development": 39.466783343232336,
+  "search_value": 54.37903977208673,
+  "retreat_danger_weight": 37.96498736150028,
+  "switch_target_health": 10.034185236895384,
+  "tool_hp_value": 31.510040014675152,
+  "stadium_value": 16.98868541869651,
+  "discard_synergy": 13.806578573943494
+}

@@ -1,0 +1,38 @@
+{
+  "ga_tuned": {
+    "dragapult_day1": [
+      5,
+      16
+    ],
+    "iono_day1": [
+      10,
+      16
+    ],
+    "mega_lucario_ref": [
+      6,
+      16
+    ],
+    "TOTAL": [
+      21,
+      48
+    ]
+  },
+  "baseline": {
+    "dragapult_day1": [
+      3,
+      16
+    ],
+    "iono_day1": [
+      12,
+      16
+    ],
+    "mega_lucario_ref": [
+      7,
+      16
+    ],
+    "TOTAL": [
+      22,
+      48
+    ]
+  }
+}

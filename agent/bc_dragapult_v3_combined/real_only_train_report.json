@@ -1,0 +1,18 @@
+{
+  "mode": "real_only",
+  "n_real_rows": 50679,
+  "n_train_rows": 40830,
+  "n_held_rows": 9849,
+  "train_time_s": 12.746630907058716,
+  "auc_held": 0.8644185116830789,
+  "decision_held_all": {
+    "n_decisions": 1423,
+    "model_acc": 0.634574841883345,
+    "first_option_baseline_acc": 0.31974701335207306
+  },
+  "decision_held_real_only": {
+    "n_decisions": 1423,
+    "model_acc": 0.634574841883345,
+    "first_option_baseline_acc": 0.31974701335207306
+  }
+}

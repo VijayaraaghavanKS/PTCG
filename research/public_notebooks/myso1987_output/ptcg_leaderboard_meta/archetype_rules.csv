@@ -1,0 +1,54 @@
+﻿match_stage,priority,archetype,all_markers,any_markers
+explicit_rule,1,Great Tusk / Crustle,Great Tusk | Crustle,
+explicit_rule,2,Marnie Grimmsnarl,,Marnie's Grimmsnarl ex | Marnie’s Grimmsnarl ex
+explicit_rule,3,Cynthia Garchomp,,Cynthia's Garchomp ex | Cynthia’s Garchomp ex
+explicit_rule,4,N's Zoroark,,N's Zoroark ex | N’s Zoroark ex
+explicit_rule,5,Mega Abomasnow,,Mega Abomasnow ex
+explicit_rule,6,Mega Froslass,,Mega Froslass ex
+explicit_rule,7,Mega Lucario,,Mega Lucario ex
+explicit_rule,8,Archaludon,,Archaludon ex
+explicit_rule,9,Crustle Wall,,Crustle
+explicit_rule,10,Dragapult,,Dragapult ex
+explicit_rule,11,Mega Starmie,,Mega Starmie ex
+explicit_rule,12,Starmie,,Starmie ex | Starmie
+explicit_rule,13,Mega Gardevoir,,Mega Gardevoir ex
+explicit_rule,14,Alakazam,,Alakazam ex | Alakazam
+explicit_rule,15,Iono Bellibolt,,Iono's Bellibolt ex | Iono’s Bellibolt ex
+explicit_rule,16,Festival Lead,,Dipplin
+explicit_rule,17,Hop Trevenant,,Hop's Trevenant | Hop’s Trevenant
+explicit_rule,18,Hop Snorlax,,Hop's Snorlax | Hop’s Snorlax
+explicit_rule,19,Mega Kangaskhan,,Mega Kangaskhan ex
+explicit_rule,20,Chandelure,,Chandelure ex | Chandelure
+explicit_rule,21,Mega Greninja,,Mega Greninja ex
+explicit_rule,22,Mega Clefable,,Mega Clefable ex
+explicit_rule,23,Team Rocket Mewtwo,,Team Rocket's Mewtwo ex | Team Rocket’s Mewtwo ex
+explicit_rule,24,Comfey,,Comfey
+named_main_pokemon_fallback,,Budew,,Budew
+named_main_pokemon_fallback,,Ceruledge,,Ceruledge ex
+named_main_pokemon_fallback,,Cornerstone Mask Ogerpon,,Cornerstone Mask Ogerpon ex
+named_main_pokemon_fallback,,Cubchoo,,Cubchoo
+named_main_pokemon_fallback,,Decidueye,,Decidueye ex
+named_main_pokemon_fallback,,Eevee,,Eevee
+named_main_pokemon_fallback,,Empoleon,,Empoleon ex
+named_main_pokemon_fallback,,Ethan's Cyndaquil,,Ethan's Cyndaquil
+named_main_pokemon_fallback,,Fezandipiti,,Fezandipiti ex
+named_main_pokemon_fallback,,Flareon,,Flareon ex
+named_main_pokemon_fallback,,Flygon,,Flygon ex
+named_main_pokemon_fallback,,Hydreigon,,Hydreigon ex
+named_main_pokemon_fallback,,Latias,,Latias ex
+named_main_pokemon_fallback,,Lillie’s Clefairy,,Lillie’s Clefairy ex
+named_main_pokemon_fallback,,Mega Lopunny,,Mega Lopunny ex
+named_main_pokemon_fallback,,Mega Sharpedo,,Mega Sharpedo ex
+named_main_pokemon_fallback,,Mega Zygarde,,Mega Zygarde ex
+named_main_pokemon_fallback,,Milotic,,Milotic ex
+named_main_pokemon_fallback,,Okidogi,,Okidogi
+named_main_pokemon_fallback,,Paldean Tauros,,Paldean Tauros
+named_main_pokemon_fallback,,Pikachu,,Pikachu ex
+named_main_pokemon_fallback,,Raging Bolt,,Raging Bolt ex
+named_main_pokemon_fallback,,Solrock,,Solrock
+named_main_pokemon_fallback,,Spheal,,Spheal
+named_main_pokemon_fallback,,Teal Mask Ogerpon,,Teal Mask Ogerpon ex
+named_main_pokemon_fallback,,Team Rocket's Arbok,,Team Rocket's Arbok
+named_main_pokemon_fallback,,Team Rocket's Chingling,,Team Rocket's Chingling
+named_main_pokemon_fallback,,Team Rocket's Honchkrow,,Team Rocket's Honchkrow
+named_main_pokemon_fallback,,Team Rocket's Murkrow,,Team Rocket's Murkrow
